@@ -17,12 +17,13 @@ html {
     height: 100%;
     width: 100%;
     font-family: "Inter", sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* Accueil */
 .main {
     margin: 1em;
-    margin-top: 2em;
 }
 
 .logo {
@@ -50,7 +51,7 @@ nav {
     text-align: center;
 }
 
-h1 {
+.accueil h1 {
     font-weight: normal;
     font-size: 3.75em;
     text-align: center;
@@ -95,7 +96,6 @@ h1 {
     bottom: 40%;
     font-size: 5em;
     font-family: "Istok Web", sans-serif;
-
 }
 
 button {
@@ -107,6 +107,11 @@ button {
     bottom: 10%;
     border: none;
     background: #86bd24;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
 
 
